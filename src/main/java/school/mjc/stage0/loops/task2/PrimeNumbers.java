@@ -16,7 +16,7 @@ public class PrimeNumbers {
                 }
             }
             if (!flag && low != 0 && low != 1)
-                System.out.print(low + " ");
+                System.out.println(low);
 
             ++low;
         }

@@ -4,12 +4,13 @@ public class FactorialNumbers {
     public static void printFactorialRow(int printToInclusive) {
         int counter = 1;
         int total = 1;
+        System.out.println(1);
         while (counter <= printToInclusive){
             System.out.println(total *= counter);
             counter++;
         }
     }
     public static void main(String[] args){
-        printFactorialRow(7);
+        printFactorialRow(0);
     }
 }

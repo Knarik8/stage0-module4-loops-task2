@@ -2,7 +2,7 @@ package school.mjc.stage0.loops.task2;
 
 public class WordsBuilder {
     public static void buildPhrase(char... chars) {
-        System.out.println(chars);
+        System.out.print(chars);
 //        int len = 0;
 //        while (len < chars.length){
 //            System.out.println(chars);
